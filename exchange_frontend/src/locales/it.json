@@ -1,0 +1,424 @@
+{
+	"Guest": {
+		"About": {
+			"Text": "Questa è una pagina dedicata",
+			"Title": ""
+		},
+		"Advantages": {
+			"Button": "",
+			"Card1": {
+				"Text": "Se stai minerando e stai cercando di incassare con noi, abbiamo alcuni vantaggi per te!",
+				"Title": "Benvenuto dei minatori"
+			},
+			"Card2": {
+				"Text": "Potresti aver sentito parlare di criptovaluta e Bitcoin ma perché dovresti comprarlo?",
+				"Title": "Perché la gente compra Bitcoin?"
+			},
+			"Card3": {
+				"Text": "La maggior parte degli scambi è concessa in licenza, sviluppata e ospitata al di fuori degli Stati Uniti. Siamo tutti gli Stati Uniti.",
+				"Title": "Banca degli Stati Uniti e piattaforma"
+			},
+			"Title": ""
+		},
+		"Benefits": {
+			"Card1": {
+				"Text": "",
+				"Title": "Sicuro, sicuro, trasparente"
+			},
+			"Card2": {
+				"Text": "",
+				"Title": ""
+			},
+			"Card3": {
+				"Text": "",
+				"Title": ""
+			},
+			"Card4": {
+				"Text": "",
+				"Title": ""
+			}
+		},
+		"FAQ": {
+			"Text": "",
+			"Title": ""
+		},
+		"FeeSchedule": {
+			"Text": "",
+			"Title": ""
+		},
+		"HowWorks": {
+			"Button": "Inizia ora",
+			"Card1": {
+				"Text": "Inserisci la tua e-mail e confermala, verifica il tuo numero di telefono con un messaggio di testo.",
+				"Title": "Aprire un account"
+			},
+			"Card2": {
+				"Text": "Completa alcuni passaggi di verifica e collega il tuo conto bancario o usa la carta di debito per l'acquisto.",
+				"Title": "Collega il tuo conto bancario"
+			},
+			"Card3": {
+				"Text": "Siamo in grado di aumentare i limiti di acquisto con ulteriori verifiche. Possiamo persino impostare dei limiti personalizzati per te.",
+				"Title": "Aumenta i tuoi limiti"
+			},
+			"Card4": {
+				"Text": "Creeremo un portafoglio sicuro di criptovaluta affinché tu possa consegnare i tuoi acquisti. Usalo come ti pare!",
+				"Title": "Secure cripto wallet"
+			},
+			"Title": "come funziona?"
+		},
+		"Index": {
+			"Header": "",
+			"MetaDescription": "",
+			"MetaEUDescription": "",
+			"MetaEUKeywords": "",
+			"MetaKeywords": "",
+			"Title": ""
+		},
+		"Legal": {
+			"Link": "collegamento",
+			"PrivacyPolicy": "",
+			"TermsOfUse": "",
+			"Title": "Informazioni legali"
+		},
+		"Nav": {
+			"About": "Di",
+			"FAQ": "",
+			"Home": "Casa",
+			"Legal": "legale"
+		},
+		"PrivacyPolicy": {
+			"EUtext": "",
+			"Text": "",
+			"Title": ""
+		},
+		"Secure": {
+			"Text": "",
+			"Title": ""
+		},
+		"Terms": {
+			"EUtext": "",
+			"Text": "",
+			"Title": ""
+		},
+		"WhyBitcoin": {
+			"Text": "",
+			"Title": ""
+		}
+	},
+	"Interface": {
+		"404": {
+			"Button": "Torna alla pagina principale",
+			"Title": "Pagina non trovata"
+		},
+		"AppName": "bitcoin Alley (beta)",
+		"Buttons": {
+			"Cancel": "Annulla",
+			"Close": "Vicino",
+			"Confirm": "Confermare",
+			"Create": "Creare",
+			"Delete": "Elimina",
+			"Deposit": "",
+			"Pay": "Effettua un pagamento",
+			"Submit": "",
+			"Withdraw": "",
+            "ReadyForPayment": ""
+		},
+		"ChangePassword": {
+			"Button": "Cambia la password",
+			"NewPassword": "Nuova password",
+			"NewPasswordConfirmation": "Conferma la nuova password",
+			"OldPassword": "Password attuale",
+			"Title": "Cambia password dell'account"
+		},
+		"Currency": {
+			"BTC": {
+				"Title": "Bitcoin"
+			},
+			"ETH": {
+				"Title": "Ethereum"
+			},
+			"EUR": {
+				"Title": "Euro"
+			},
+			"JPY": {
+				"Title": "Yen Giapponese"
+			},
+			"USD": {
+				"Title": "Dollaro Americano"
+			}
+		},
+		"Dashboard": {
+			"DailyLimit": {
+				"Remaining": "Rimanente",
+				"Title": "Limite giornaliero",
+				"Used": "usato",
+				"Verify": ""
+			},
+			"Exchange": {
+				"Title": "Cambio di valuta"
+			},
+			"Title": "",
+			"TotalBalance": {
+				"Title": "Saldo totale del portafoglio"
+			},
+			"VerifyNotification": {
+				"Email": {
+					"Button": "",
+					"SubTitle": "",
+					"Title": ""
+				},
+				"Phone": {
+					"Button": "",
+					"SubTitle": "",
+					"Title": ""
+				}
+			},
+			"Wallets": {
+				"CryptoTitle": "",
+				"FiatTitle": ""
+			}
+		},
+		"FiatWallet": {
+			"AchNotReady": {
+				"SubTitle": "",
+				"Title": ""
+			},
+			"Deposit": {
+				"Aba": "",
+				"Account": "",
+				"Amount": "",
+				"BankAccount": "",
+				"Name": "",
+				"Title": "",
+                "SameDay": ""
+			},
+			"LinkBank": {
+				"Button": "",
+				"ButtonAnother": "",
+				"SubTitle": "",
+				"Title": ""
+			},
+			"Pay": {
+				"Title": "",
+				"Wallet": ""
+			},
+			"Title": "",
+			"Withdraw": {
+				"BankAccount": ""
+			}
+		},
+		"ForgotPassword": {
+			"Button": "",
+			"SubTitle": "",
+			"Title": "Ha dimenticato la password?"
+		},
+		"Login": {
+			"Button": "Accesso",
+			"Title": "Accesso",
+			"Username": "Email o telefono"
+		},
+		"Nav": {
+			"CryptocurrencyWallets": "",
+			"Dashboard": "Cruscotto",
+			"FiatWallets": "",
+			"Logout": "Disconnettersi",
+			"Orders": "ordini",
+			"Tiers": ""
+		},
+		"Order": {
+			"Confirm": {
+				"AddressReceive": "Indirizzo",
+				"PayACH": "",
+				"PayBridgePay": "",
+				"PayCurrency": "Paga con",
+				"RateWarning": "",
+				"Title": {
+					"Part1": "Stai acquistando",
+					"Part2": "per"
+				},
+				"WalletPay": "Portafoglio da pagare da",
+				"WalletPayAnother": "Voglio usare un altro portafoglio per pagare",
+				"WalletReceive": "Portafoglio da ricevere",
+				"WalletReceiveAnother": "Voglio usare un altro portafoglio per ricevere"
+			},
+			"Create": {
+				"Exchange": "Scambio",
+				"FeeLink": "",
+				"FeeMessage": "",
+				"Get": "",
+				"InputPlaceholder": "",
+				"Send": ""
+			},
+			"Details": {
+				"Get": "",
+				"On": "",
+				"OrderNumber": "Ordine #",
+				"Send": "",
+				"Title": "Il tuo ordine",
+				"To": "",
+				"ToOrders": "Alla lista degli ordini",
+				"Tx": ""
+			},
+			"List": {
+				"NoData": "Niente qui",
+				"PerPage": "uno per pagina | {oggetti per pagina",
+				"Table": {
+					"Date": "Data",
+					"Get": "",
+					"ID": "Id",
+					"PaymentAddress": "",
+					"ReceiverAddress": "",
+					"Send": "",
+					"Status": "stato"
+				},
+				"Title": "Cronologia ordini"
+			},
+			"Subscribe": {
+				"Button": "Iscriviti agli aggiornamenti",
+				"Text1": "Il pagamento in dollari non è disponibile in questo momento.",
+				"Text2": "Iscriviti per un aggiornamento per scoprire le funzionalità disponibili.",
+				"Title": "Essere annunciato"
+			},
+			"Total": "totale"
+		},
+		"Rates": {
+			"SeeChart": "Vedi grafico"
+		},
+		"Register": {
+			"Already": "Già registrato?",
+			"Button": "Iscriviti",
+			"CheckboxAgree": "Sono d'accordo con",
+			"Email": "E-mail",
+			"Password": "Parola d'ordine",
+			"PasswordConfiramtion": "Conferma password",
+			"Phone": "Telefono",
+			"Title": "Iscriviti"
+		},
+		"Reset": {
+			"Button": "Reimposta la mia password",
+			"Title": "Ha dimenticato la password?"
+		},
+		"ResetPassword": {
+			"Button": "",
+			"SubTitle": "",
+			"Title": ""
+		},
+		"Tier": {
+			"TierTitle": "",
+			"Title": ""
+		},
+		"Tooltips": {
+			"Copy": "Clicca per copiare"
+		},
+		"UserInfo": {
+			"NotVerified": "non è verificato",
+			"Verified": "è verificato"
+		},
+		"Verify": {
+			"Button": "Verificare",
+			"Code": "Codice da sms",
+			"Title": "Verifica il numero di telefono"
+		},
+		"Wallet": {
+			"List": {
+				"Address": "Indirizzo",
+				"Balance": "Equilibrio",
+				"Title": "I miei portafogli",
+				"Withdraw": "ritirarsi"
+			},
+			"New": {
+				"Currency": "Moneta",
+				"Danger": {
+					"Text1": "Inserisci il perno per crittografare il tuo portafoglio",
+					"Text2": "Ricorda che è necessario un pin per lo scambio o il ritiro da questo portafoglio!",
+					"Text3": "IMPORTANTE: NON ABBIAMO ACCESSO AL TUO PORTAFOGLIO. Se perdi lo spillo, perdi l'accesso a questo portafoglio e non possiamo ripristinarlo!"
+				},
+				"Name": "Nome",
+				"Pin": "perno",
+				"PinConfirmation": "Conferma il pin",
+				"Title": "Crea nuovo portafoglio"
+			},
+			"Pay": {
+				"Title": "Ordine di pagamento da"
+			},
+			"Reset": {
+				"Title": ""
+			},
+			"Withdraw": {
+				"Address": "ritirare l'indirizzo",
+				"All": "",
+				"Amount": "Quantità",
+				"Pin": "Pin per decifrare il tuo portafoglio",
+				"Title": "Vuoi ritirare questo portafoglio?"
+			},
+			"Wizard": {
+				"Title": "",
+				"WelcomeText": ""
+			}
+		}
+	},
+	"Message": {
+		"ACH": {
+			"DepositSuccess": "",
+			"WithdarwSuccess": ""
+		},
+		"Backend": {
+			"Default": "Errore: qualcosa non funziona",
+			"NoData": "Errore: non abbiamo ricevuto dati dal server"
+		},
+		"Order": {
+			"BridgePay": {
+				"TokenNotReady": "Token BridgePay non è pronto"
+			},
+			"FiatWallet": {
+				"CreateWalletFirst": "",
+				"NoWallets": "",
+				"NoWalletsToReceive": "",
+				"NotEnoughOnWallets": "",
+				"PaySuccess": ""
+			},
+			"RestoreFromLocalAuth": "Il tuo ordine è stato ripristinato, fai clic su exchange per completarlo",
+			"RestoreFromLocalNoAuth": "Il tuo ordine è stato salvato, devi effettuare il login per completarlo",
+			"SaveToLocal": "Il tuo ordine è stato salvato, ma devi effettuare il login per completarlo"
+		},
+		"Password": {
+			"ChangeSuccess": "la tua password è stata cambiata con successo"
+		},
+		"Register": {
+			"Success": "Sei registrato con successo! Si prega di verificare il tuo numero di telefono."
+		},
+		"Verify": {
+			"Already": "Il tuo numero di telefono è già stato verificato",
+			"EmailConfirmationSent": "",
+			"EmailConfirmed": "",
+			"VerifyPhone": "Per favore, verifica il tuo numero di telefono"
+		},
+		"Wallet": {
+			"Created": "Il tuo nuovo portafoglio è stato creato con successo",
+			"MultipleCreated": "I tuoi nuovi portafogli sono stati creati con successo",
+			"Payed": "Successo! Il tuo ordine è pagato",
+			"Reset": {
+				"CodeSent": "",
+				"NotRecoverable": "",
+				"Success": ""
+			},
+			"Withdraw": {
+				"Link": "Link sulla transazione",
+				"Success1": "Hai inviato con successo",
+				"Success2": "a"
+			}
+		}
+	},
+	"Validation": {
+		"BTCaddress": "",
+		"Default": "Controlla i campi del modulo",
+		"ETHaddress": "",
+		"ExchangeLimit": "",
+		"Login": "",
+		"Pin": "",
+		"SelectCurrency": "",
+		"SelectWallet": "",
+		"UTF8": "",
+		"WithdrawLimit": ""
+	}
+}

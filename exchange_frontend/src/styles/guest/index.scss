@@ -1,0 +1,111 @@
+﻿#layout-guest {
+    .appcontent {
+        padding-top: 4.375rem !important;
+    }
+    .hero.is-getcrypto {
+        background-color: var(--color-white1);
+
+        .title {
+            font-weight: 300;
+            font-size: 26px;
+        }
+        .column-vertical-centered {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        video { 
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            max-width: unset;
+            width: auto;
+            height: auto;
+            z-index: 0;
+            transform: translateX(-50%) translateY(-50%);
+            background-size: cover;
+            transition: 1s opacity;
+            filter: blur(5px) grayscale(20%);
+            opacity: 0.5;
+        }
+    }
+
+    .benefits {
+        font-size: 15px;
+        font-weight: 300;
+
+        .subtitle,
+        p {
+            margin-bottom: 0.5rem;
+        }
+    }
+    .getcrypto-title {
+        display: flex;
+        justify-content: center;
+        .title.is-rectangle {
+            margin-bottom: 60px !important;
+            font-size: 20px;
+            font-weight: 400;
+            z-index: 1;
+    
+            &:before {
+                content: '';
+                position: absolute;
+                box-sizing: border-box;
+                width: 40px;
+                height: 50px;
+                top: -15px;
+                transform: skewX(-30deg);
+                z-index: -1;
+                background: var(--color-theme-light);
+            }
+        }
+    }
+
+    .advantages {
+        p {
+            font-size: 16px;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+    }
+
+    #legal {
+        table {
+            width: 100%;
+            td {
+                text-align: left;
+                vertical-align: middle;
+            }
+        }
+        hr {
+            margin: 0.1rem 0;
+            background-color: var(--color-white6);
+        }
+    }
+    #terms,
+    #privacy {
+        ol,
+        ul {
+            margin-left: 1em;
+        }
+        ul {
+            list-style: initial;
+        }
+    }
+    #privacy {
+        table {
+            width: 100%;
+            td {
+                padding: 0.5em;
+            }
+        }
+        table, th, td {
+            border: 1px solid var(--color-gray1);
+        }
+    }
+}

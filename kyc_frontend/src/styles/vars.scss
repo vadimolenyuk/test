@@ -1,0 +1,100 @@
+:root {
+    // INITIAL COLORS
+    --color-white0: #ffffff;
+    --color-white1: #fcfcfc;
+    --color-white2: #f8f8f8;
+    --color-white3: #f1f1f1;
+    --color-white4: #edeff5;
+    --color-white5: #efefef;
+    --color-white6: #eee9e6;
+
+    --color-gray1: #cfcfcf;
+    --color-gray2: #B0B5C0;
+    --color-gray3: #808080;
+
+    --color-success: hsl(141, 71%,  48%);
+    --color-warning: hsl(48,  100%, 67%);
+    --color-danger: hsl(348, 100%, 61%);
+    --color-info: hsl(217, 71%,  53%);
+
+    // THEME COLORS
+    --color-text: #607d8b; //default text color
+    --color-text-dark: #455a64; //h1..., a:hover, title
+    --color-text-darker: #263238; //nav li:active
+
+    --color-theme-light: #2196f3;
+    --color-theme: #1e88e5;
+    --color-theme-dark: #1976d2;
+    --color-theme-darker: #1565c0;
+    --color-theme-darkest: #0d47a1;
+    --color-theme-alt: #2962ff;
+
+    // DERIVED COLOR
+    --body-background-color: var(--color-white0);
+    --footer-background-color: var(--color-white2);
+    --input-border-color: var(--color-gray1);
+    --box-background-color: var(--color-white0);
+    --card-background-color: var(--color-white0);
+    --table-background-color: var(--color-white6);
+
+    //MISC
+    --border-radius: 4px;
+    --font-main: '';
+    --shadow1: 3px 3px 10px 2px rgba(30, 136, 229, 0.1);
+    // --shadow2: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+    --shadow-material1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+//CUSTOMIZING FRAMEWORK DEFAULTS
+// $success: var(--color-success);
+// $warning: var(--color-warning);
+// $danger: var(--color-danger);
+// $info: var(--color-info);
+
+$radius: var(--border-radius);
+
+$primary: #1e88e5;
+
+$transition-type: ease;
+$transition-duration: 0.2s;
+$transition-button-type: $transition-type;
+$transition-button-duration: $transition-duration;
+$transition-input-type: $transition-type;
+$transition-input-duration: $transition-duration;
+
+$family-sans-serif: var(--font-main), BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$body-background-color: var(--body-background-color);
+$body-color: var(--color-text);
+$footer-background-color: var(--footer-background-color);
+
+$title-color: var(--color-text-dark);
+$subtitle-color: var(--color-text-dark);
+$content-heading-color: var(--color-text-dark);
+
+// $link: var(--color-theme-alt);
+$link-hover: var(--color-text-dark);
+
+$label-color: $title-color;
+$input-color: $body-color;
+$input-border-color: var(--input-border-color);
+$input-hover-border-color: var(--color-theme);
+$input-focus-border-color: var(--color-theme-darker);
+
+$navbar-item-color: var(--color-text);
+$navbar-background-color: var(--color-white1);
+$navbar-item-active-color: var(--color-theme-dark);
+$navbar-item-hover-color: var(--color-theme-dark);
+$navbar-item-hover-background-color: none !important;
+$navbar-dropdown-background-color: var(--color-white1);
+
+$box-background-color: var(--box-background-color);
+$box-radius: var(--border-radius);
+$box-shadow: var(--shadow-material1);
+
+$card-shadow: var(--shadow-material1);
+$card-background-color: var(--card-background-color);
+
+$table-background-color: var(--table-background-color);
+$table-head-cell-color: $title-color;
+
+$checkbox-active-background-color: var(--color-theme);

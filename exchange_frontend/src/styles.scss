@@ -1,0 +1,36 @@
+/*
+    GetCrypto24 Application
+    Developed by Anton Zolotov (antonzolotov@outlook.com)
+*/
+
+@import 'styles/vars';
+
+/*Vendor's libraries*/
+@import 'styles/plugins/mdi-font';
+@import 'styles/plugins/buefy';
+@import '~vue-multiselect/dist/vue-multiselect.min';
+
+/*Shared styles*/
+@import 'styles/base';
+@import 'styles/global';
+@import 'styles/chart';
+@import 'styles/form';
+@import 'styles/nav';
+@import 'styles/footer';
+@import 'styles/rates';
+@import 'styles/language';
+@import 'styles/is-theme';
+
+/*Guest layout*/
+@import 'styles/guest/index';
+@import 'styles/guest/steps';
+
+/*Default layout*/
+@import 'styles/default/index';
+@import 'styles/default/header';
+@import 'styles/default/order';
+@import 'styles/default/wallet';
+@import 'styles/default/tier';
+
+/*Vendor's override styles*/
+@import 'styles/plugins/vue-multiselect';

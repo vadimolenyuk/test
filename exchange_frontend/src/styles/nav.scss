@@ -1,0 +1,131 @@
+﻿.navbar.is-getcrypto {
+    z-index: 10;
+
+    .navbar-item {
+        img {
+            max-height: none;
+        }
+    }
+
+    .navbar-brand {
+        @include touch {
+            margin-right: 0;
+            padding: 0.5em 0.75em;
+        }
+    }
+
+    .navbar-start {
+        a.navbar-item {
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+
+    .navbar-end {
+        a.navbar-item {
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+
+    .navbar-link:not(.is-arrowless)::after {
+        border-color: var(--color-text);
+    }
+
+    .navbar-dropdown {
+        transition: all $transition-duration $transition-type;
+        display: block;
+    }
+
+    .navbar-menu {
+        @include touch {
+            &.open {
+                display: block;
+                position: absolute;
+                overflow: hidden;
+                width: 100%;
+            }
+        }
+    }
+
+    .navbar-menu-mobile {
+        display: flex;
+        margin-left: auto;
+        .navbar-item {
+            margin-left: 1em;
+        }
+    }
+
+    .navbar-burger.ham {
+        cursor: pointer;
+        transition: transform 400ms;
+        user-select: none;
+        .line {
+            fill:none;
+            transition: stroke-dasharray 300ms, stroke-dashoffset 300ms;
+            stroke: var(--color-text-dark);
+            stroke-width: 4.5;
+            stroke-linecap:round;
+        }
+        .top {
+            stroke-dasharray: 40 121;
+        }
+        .bottom {
+            stroke-dasharray: 40 121;
+        }
+        &.active {
+            transform: rotate(45deg);
+            .top {
+                stroke-dashoffset: -68px;
+            }
+            .bottom {
+                stroke-dashoffset: -68px;
+            }
+        }
+    }
+}
+
+#layout-guest .navbar {
+    background-color: var(--color-white1);
+    .navbar-brand {
+        margin-right: 10rem;
+        padding: 1em 0;
+        @include touch {
+            margin-right: 0;
+            padding: 0.5em 0.75em;
+        }
+        .navbar-item {
+            padding: 0;
+            .logoname {
+                font-size: 18px;
+            }
+        }
+        .navbar-burger {
+            margin-left: 0.5em;
+            &:hover {
+                background: none;
+            }
+        }
+    }
+}
+
+#layout-default .navbar {
+    background-color: var(--color-white1);
+    .navbar-start {
+        a.navbar-item {
+            font-size: 17px;
+        }
+    }
+    .navbar-brand {
+        @include touch {
+            padding: 0.25em 0.75em;
+        }
+        .logo {
+            padding: 0;
+            .image {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}

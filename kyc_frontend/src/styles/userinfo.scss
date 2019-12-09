@@ -1,0 +1,31 @@
+.userinfo {
+    .userinfo-content {
+        .userinfo-content-text {
+            margin-right: 5px;
+            margin-bottom: 5px;
+            display: inline-block;
+            @include touch{
+                margin-bottom: 0;
+                display: block;
+            }
+        }
+    }
+}
+
+.verify-notification {
+    .message {
+        .media-content {
+            h5 {
+                margin-bottom: 0.2rem;
+                color: inherit;
+            }
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+
+.verify .control .button {
+    width: 72px;
+}

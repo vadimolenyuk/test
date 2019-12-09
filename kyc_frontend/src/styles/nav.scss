@@ -1,0 +1,90 @@
+.navbar {
+    z-index: 1;
+    .navbar-brand {
+        .navbar-item {
+            img {
+                max-height: none;
+                margin-right: 5px;
+            }
+            .logoname {
+                font-size: 18px;
+            }
+        }
+        @include touch{
+            margin-right: 0;
+        }
+    }
+    
+    .navbar-start {
+        .navbar-item {
+            font-size: 17px;
+        }
+    }
+    
+    .navbar-menu{
+        @include touch {
+            &.open {
+                display: block;
+                position: absolute;
+                overflow: hidden;
+                width: 100%;
+            }
+        }
+    }
+
+    .navbar-link:not(.is-arrowless)::after {
+        border-color: var(--color-text);
+    }
+
+    .navbar-dropdown {
+        transition: all $transition-duration $transition-type;
+        display: block;
+    }
+
+    .navbar-menu-mobile {
+        display: flex;
+        margin-left: auto;
+        .navbar-item {
+            margin-left: 1em;
+        }
+    }
+
+    .navbar-burger.ham {
+        cursor: pointer;
+        transition: transform 400ms;
+        user-select: none;
+        .line {
+            fill:none;
+            transition: stroke-dasharray 300ms, stroke-dashoffset 300ms;
+            stroke: var(--color-text-dark);
+            stroke-width: 4.5;
+            stroke-linecap:round;
+        }
+        .top {
+            stroke-dasharray: 40 121;
+        }
+        .bottom {
+            stroke-dasharray: 40 121;
+        }
+        &.active {
+            transform: rotate(45deg);
+            .top {
+                stroke-dashoffset: -68px;
+            }
+            .bottom {
+                stroke-dashoffset: -68px;
+            }
+        }
+    }
+    .navbar-burger:hover {
+        background-color: transparent !important;
+    }
+}
+
+.usernav {
+    .usernav-account {
+        .icon {
+            margin-right: 5px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/*
+    KYC Application
+    Designed by Anton Zolotov (antonzolotov@outlook.com)
+*/
+
+@import 'styles/vars';
+
+/*Vendor's libraries*/
+@import 'styles/plugins/mdi-font';
+@import 'styles/plugins/buefy';
+@import '~vue-multiselect/dist/vue-multiselect.min.css';
+@import '~vue-form-wizard/src/assets/wizard';
+
+/*Shared styles*/
+@import 'styles/global';
+@import 'styles/animations';
+@import 'styles/is-theme';
+@import 'styles/language';
+@import 'styles/404';
+
+/*Default layout*/
+@import 'styles/base';
+@import 'styles/header';
+@import 'styles/nav';
+@import 'styles/userinfo';
+@import 'styles/kyc';
+@import 'styles/footer';
+@import 'styles/components/uploadpreview';
+
+/*Plugin styles*/
+@import 'styles/plugins/vue-multiselect';

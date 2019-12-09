@@ -1,0 +1,157 @@
+.has-text-primary {
+    color: var(--color-theme) !important;
+}
+
+.button.is-theme {
+    background-color: var(--color-theme);
+    border-color: transparent;
+    color: var(--color-white0);
+    &:hover,
+    &.is-hovered {
+        background-color: var(--color-theme-dark);
+        border-color: transparent;
+        color: var(--color-white0);
+    }
+    &:active,
+    &.is-active {
+        background-color: var(--color-theme-darker);
+        border-color: transparent;
+        color: var(--color-white0);
+    }
+    &:focus,
+    &.is-focused {
+        border-color: transparent;
+        color: var(--color-white0);
+    }
+
+    &:focus:not(:active),
+    &.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(30, 136, 229, 0.25);
+    }
+
+
+
+    &[disabled] {
+        background-color: var(--color-theme);
+        border-color: transparent;
+        box-shadow: none;
+    }
+
+    &.is-inverted {
+        background-color: var(--color-white0);
+        color: var(--color-theme);
+    }
+
+    &.is-inverted:hover {
+        background-color: var(--color-white1);
+    }
+
+    &.is-inverted[disabled] {
+        background-color: var(--color-white0);
+        border-color: transparent;
+        box-shadow: none;
+        color: var(--color-theme);
+    }
+
+    &.is-loading::after {
+        border-color: transparent transparent var(--color-white0) var(--color-white0) !important;
+    }
+
+    &.is-outlined {
+        background-color: transparent;
+        border-color: var(--color-theme);
+        color: var(--color-theme);
+    }
+
+    &.is-outlined:hover,
+    &.is-outlined:active {
+        background-color: var(--color-theme);
+        border-color: var(--color-theme);
+        color: var(--color-white0);
+    }
+
+    &.is-outlined.is-loading::after {
+        border-color: transparent transparent var(--color-theme) var(--color-theme) !important;
+    }
+
+    &.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: var(--color-theme);
+        box-shadow: none;
+        color: var(--color-theme);
+    }
+
+    &.is-inverted.is-outlined {
+        background-color: transparent;
+        border-color: var(--color-white0);
+        color: var(--color-white0);
+    }
+
+    &.is-inverted.is-outlined:hover,
+    &.is-inverted.is-outlined:focus {
+        background-color: var(--color-white0);
+        color: var(--color-theme);
+    }
+
+    &.is-inverted.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: var(--color-white0);
+        box-shadow: none;
+        color: var(--color-white0);
+    }
+}
+
+.datepicker {
+    .datepicker-table {
+        .datepicker-body { 
+            .datepicker-row {
+                .datepicker-cell {
+                    &.is-today {
+                        border: solid 1px var(--color-theme-light);
+                    }
+                    &.is-selected {
+                        background-color: var(--color-theme);
+                        // color: $primary-invert;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.select select:focus,
+.select select.is-focused,
+.select select:active,
+.select select.is-active,
+.select:not(.is-multiple):not(.is-loading)::after,
+.pagination-previous:focus, 
+.pagination-next:focus, 
+.pagination-link:focus {
+    border-color: var(--color-theme);
+}
+
+.select select:focus,
+.select select.is-focused,
+.select select:active,
+.select select.is-active {
+    box-shadow: var(--shadow1);
+}
+
+.theme-logo {
+    max-width: 48px;
+    margin: 0 auto 1em;
+    display: block;
+}
+
+.is-getcrypto {
+    .vue-form-wizard {
+        background-color: var(--color-white0);
+        padding: 1.25rem;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-material1);
+    }
+    #kyc .backbutton,
+    #kyc .checkbutton {
+        margin: 1.25rem;
+    }
+}

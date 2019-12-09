@@ -1,0 +1,200 @@
+{
+    "Interface": {
+        "404": {
+            "Button": "Back to main page",
+            "Title": "Page not found"
+        },
+        "AppName": "KYC",
+        "Button": {
+            "BackTo": "Back to",
+            "Cancel": "Cancel",
+            "Resend": "Resend",
+            "Submit": "Submit"
+        },
+        "ChangePassword": {
+            "Button": "Change password",
+            "NewPassword": "New password",
+            "NewPasswordConfirmation": "Confirm new password",
+            "OldPassword": "Current password",
+            "Title": "Change account password"
+        },
+        "Dashboard": {
+            "MyInfo": {
+                "Title": "My Info"
+            },
+            "Title": "Account dashboard",
+            "VerifyNotification": {
+                "Email": {
+                    "Button": "Confirm email",
+                    "SubTitle": "Please confirm your email to use the full functionality of the application",
+                    "Title": "Your email is not confirmed yet"
+                },
+                "Phone": {
+                    "Button": "Verify phone number",
+                    "SubTitle": "Please confirm your phone number to use the full functionality of the app",
+                    "Title": "Your phone number is not verified yet"
+                }
+            }
+        },
+        "Footer": {
+            "Address": "1939 Kane Street",
+            "Email": "demo@example.com"
+        },
+        "KYC": {
+            "Address": {
+                "City": "City",
+                "Country": "Country",
+                "Region": "Region",
+                "State": "State",
+                "Street": "Street",
+                "Title": "Address",
+                "ZipCode": "Zip code"
+            },
+            "Button": {
+                "Back": "Back to",
+                "CheckData": "Verify data",
+                "Complete": "Complete",
+                "Next": "Next"
+            },
+            "ID": {
+                "Authority": "Issuing agency",
+                "Country": "Country",
+                "DateOfExpire": "Date of expiration",
+                "DateOfIssue": "Date of issue",
+                "DocumentFile": "Scanned document",
+                "DocumentFileBack": "Scanned document back side",
+                "Example1": "Must NOT be covered in any way",
+                "Example2": "Must NOT be blurred or with flash",
+                "Example3": "Must NOT be tilted other than 90°",
+                "Example4": "This is RIGHT!",
+                "Help": "Upload a document which identifies you. It can be Foreign/passport, International ID with MRZ (machine read zone), Driver licence or any kind of other governmental ID with your face.",
+                "HelpVideo": "Camera is positioned straight, in front of face, and not too far away. User is looking directly into camera while speaking. User is taking a steady video recording. No other people are present in video recording. Good natural lighting (average pixel intensity ~150). Should be in full color (no black and white videos accepted) recommend a It maximum file size of 10 MB (most high quality JPG are around 5 MB)",
+                "Number": "Document number",
+                "SSN": "Social Security Number",
+                "Title": "ID",
+                "Type": {
+                    "Label": "Document type",
+                    "Type1": "Drivers License",
+                    "Type2": "State Issued ID",
+                    "Type3": "Passport"
+                }
+            },
+            "Other": {
+                "IDSelfie": "Selfie with ID",
+                "ImageUploadHelp": "1. Min resolution ~600 pixels, minor axis\n2. File size from 400KB to 4MB\n3. File format is JPG",
+                "ImageUploadHelpSynapse": "1. Min resolution ~1200 pixels, minor axis\n2. File size from 400KB to 2MB\n3. File format is JPG or PNG",
+                "InvestorCertificate": "Investor's certificate",
+                "ProofOfResidence": "Proof of residence",
+                "Title": "Other"
+            },
+            "Personal": {
+                "BirthDate": "Birth date",
+                "BirthPlace": "Birth place",
+                "FirstName": "First name",
+                "Gender": {
+                    "Female": "Female",
+                    "Male": "Male",
+                    "Title": "Gender"
+                },
+                "Help": "All fields must be filled in with English Alphabet only (ex. John Doe).",
+                "LastName": "Last name",
+                "MiddleName": "Middle name",
+                "Title": "Personal"
+            },
+            "Webcam": {
+                "Button": {
+                    "Restart": "Re-record",
+                    "Start": "Record video",
+                    "Stop": "Stop recording"
+                },
+                "Error": {
+                    "BadBrowser": "Sorry, but your browser doesn't support recording video from a webcam, which is necessary for the KYC procedure. Please, use Chrome or Firefox (Windows/Android).",
+                    "Disabled": "Webcam disabled by privacy settings",
+                    "DisabledText": "Please allow access to the webcam in your browser settings",
+                    "NoSupportRecorder": "",
+                    "NoSupportRecorderText": "",
+                    "NotFound": "Webcam not found",
+                    "NotFoundText": "Webcam is required to complete KYC procedure",
+                    "Unknown": "Unknown webcam error",
+                    "UnknownText": "Check your webcam, if the error constantly appears, contact support"
+                },
+                "Help": "To implement the procedure of transferring tokens in accordance with the laws of all countries, we need to record video from your webcam.",
+                "Indicator": {
+                    "Record": "Recording"
+                },
+                "Movements": {
+                    "FirstStep": "Push the \"Record video\" button",
+                    "LastStep": "Push the \"Stop recording\" button",
+                    "Title": "You need to do the following challenge"
+                },
+                "Title": "Video"
+            }
+        },
+        "Nav": {
+            "Dashboard": "Dashboard",
+            "KYC": "KYC",
+            "Logout": "Log out"
+        },
+        "SSO": {
+            "AlreadyLogin": {
+                "Cancel": "Log out",
+                "Confirm": "Continue",
+                "Text": " You're already logged in. Do you want to continue with this account? | You're already logged in as <b>{name}</b>. Do you want to continue with this account?",
+                "Title": "You're already logged in"
+            },
+            "Logout": {
+                "Text": "To procceed this action you'll need to <b>log out</b> from your account",
+                "Title": "Log out"
+            }
+        },
+        "UploadPreview": {
+            "Drop": "Click to upload",
+            "Replace": "Click to replace"
+        }
+    },
+    "Message": {
+        "Backend": {
+            "Default": "Default message about error on backend",
+            "NoData": "Error retrieving data from backend"
+        },
+        "KYC": {
+            "General": {
+                "Complete": "Congratulations, You're complete all steps! Data verification will take some time.",
+                "CompleteMessage": "Congratulations, You're complete all steps!",
+                "SaveSuccess": "Your data is succesfully saved"
+            },
+            "SendToAgent": {
+                "Error": "Error while sending to check agent",
+                "Success": "Your data is succesfully sent to check agent"
+            },
+            "Webcam": {
+                "SaveError": "Error while saving your video",
+                "SaveSuccess": "Your video is successfully saved"
+            }
+        },
+        "Password": {
+            "ChangeSuccess": "Your password has been successfully changed"
+        },
+        "SSO": {
+            "LoginRequestError": "An error occurred while preparing an authorization request"
+        },
+        "Verify": {
+            "Already": "Your phone is already verified",
+            "EmailConfirmationSent": "Confirmation letter successfully sent to {email}",
+            "EmailConfirmed": "Your email is confirmed!",
+            "VerifyPhone": "Please, verify your phone number"
+        }
+    },
+    "Validation": {
+        "Default": "Check form fields",
+        "KYC": {
+            "Text": "Validation error",
+            "Webcam": "Webcam validation error"
+        },
+        "UploadPreview": {
+            "ResolutionSmall": "Image resolution is too small | Image resolution is too small. The minimum acceptable resolution is {size} pixels, minor axis.",
+            "SizeBig": "File size is too big | File size is too big, maximal size is {size} MB",
+            "SizeSmall": "File size is too small | File size is too small, minimal size is {size} KB"
+        }
+    }
+}

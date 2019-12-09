@@ -1,0 +1,4 @@
+Sitemap: https://bitcoinalley.com/sitemap.xml
+
+User-agent: *
+Disallow:

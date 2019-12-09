@@ -1,0 +1,12 @@
+#layout-default {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.appcontent {
+    flex: 1;
+}
+
+body {
+    background-color: var(--body-background-color);
+}

@@ -1,0 +1,29 @@
+﻿#layout-default,
+#layout-guest {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.appcontent {
+    flex: 1;
+}
+
+#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: unset;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+    filter: blur(5px) grayscale(40%);
+    opacity: 0.4;
+    @include mobile {
+        display: none;
+    }
+}

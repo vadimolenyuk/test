@@ -1,0 +1,77 @@
+.dashboard {
+    .wallets {
+        display: flex;
+        justify-content: flex-end;
+        .pagination {
+            margin: 0.5em;
+        }
+    }
+    .content-dashboard {
+        @include mobile {
+            flex-direction: column;
+        }
+    }
+}
+
+.limit.daily {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .limit-header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+        @include mobile {
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            span {
+                margin: 0 0.3em;
+            }
+        }
+    }
+    .subtitle {
+        margin-bottom: 0;
+    }
+    .limit-title {
+        font-size: 14px;
+    }
+    .limit-grid {
+        display: grid;
+		grid-gap: 0.5rem;
+		grid-template-areas: "remaining"
+							 "chart"
+                             "used";
+        @include mobile {
+            grid-template-areas: "chart chart" 
+                                "used remaining";
+            .limit-container {
+                position: relative;
+                height: 20px;
+                top: -70px;
+                .limit-chart {
+                    transform: rotate(90deg) scaleY(1.5) scaleX(0.1);
+                }
+            }
+        }
+    }
+    .button {
+        @include mobile {
+            height: initial !important;
+        }
+    }
+}
+
+.verify-notification {
+    .message {
+        .media-content {
+            h5 {
+                margin-bottom: 0.2rem;
+                color: inherit;
+            }
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}

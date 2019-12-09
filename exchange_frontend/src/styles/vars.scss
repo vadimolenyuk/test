@@ -1,0 +1,97 @@
+:root {
+    // INITIAL COLORS
+    --color-white0: #ffffff;
+    --color-white1: #fcfcfc;
+    --color-white2: #f8f8f8;
+    --color-white3: #f1f1f1;
+    --color-white4: #edeff5;
+    --color-white5: #efefef;
+    --color-white6: #eee9e6;
+
+    --color-gray1: #cfcfcf;
+    --color-gray2: #B0B5C0;
+    --color-gray3: #808080;
+
+    --color-green: #4caf50;
+    --color-yellow: #ffc400;
+    --color-red: #d32f2f;
+    --color-blue: #1565c0;
+
+    // THEME COLORS
+    --color-text: #8C857D;
+    --color-text-dark: #73695E;
+    --color-text-darker: #504941;
+
+    --color-theme-light: #ece9e6;
+    --color-theme: #c2b4a4;
+    --color-theme-dark: #B2A08C;
+    --color-theme-alt: #aea090;
+
+    // DERIVED COLOR
+    --body-background-color: var(--color-white2);
+    --footer-background-color: var(--color-white6);
+    --input-border-color: var(--color-gray1);
+    --box-background-color: var(--color-white1);
+    --card-background-color: var(--color-white0);
+    --table-background-color: var(--color-white5);
+
+    //MISC
+    --border-radius: 4px;
+    --font-main: '';
+    --shadow1: 3px 3px 10px 2px rgba(30, 136, 229, 0.1);
+    --shadow2: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+    --shadow-material1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+//CUSTOMIZING FRAMEWORK DEFAULTS
+$radius: var(--border-radius) !default;
+
+$transition-type: ease;
+$transition-duration: 0.2s;
+$transition-button-type: $transition-type;
+$transition-button-duration: $transition-duration;
+$transition-input-type: $transition-type;
+$transition-input-duration: $transition-duration;
+
+$family-sans-serif: var(--font-main), BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$body-background-color: var(--body-background-color);
+$body-color: var(--color-text);
+$footer-background-color: var(--footer-background-color);
+
+$title-color: var(--color-text-dark);
+$subtitle-color: var(--color-text-dark);
+$content-heading-color: var(--color-text-dark);
+
+// $link: var(--color-theme-alt);
+$link-hover: var(--color-text-dark);
+
+$label-color: $title-color;
+$input-color: $body-color;
+$input-border-color: var(--input-border-color);
+$input-hover-border-color: var(--color-theme);
+$input-focus-border-color: var(--color-theme-dark);
+$input-focus-box-shadow-color: var(--color-theme-light);
+
+$navbar-item-color: var(--color-text);
+$navbar-background-color: var(--color-white1);
+$navbar-item-active-color: var(--color-text-darker);
+$navbar-item-hover-color: var(--color-text-darker);
+$navbar-item-hover-background-color: none !important;
+$navbar-dropdown-background-color: var(--color-white1);
+
+$box-background-color: var(--box-background-color);
+$box-radius: var(--border-radius);
+$box-shadow: var(--shadow-material1);
+
+$card-shadow: var(--shadow-material1);
+$card-background-color: var(--card-background-color);
+
+$table-background-color: var(--table-background-color);
+$table-head-cell-color: $title-color;
+
+$checkbox-active-background-color: var(--color-theme);
+
+$green: #4caf50;
+$yellow: #ffc400;
+$red: #d32f2f;
+$cyan: #1565c0;

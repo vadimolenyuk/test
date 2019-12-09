@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "cryptocurrency-icons";
+    font-style: normal;
+    font-weight: 400;
+    /* src: url(cryptocurrency-icons.eot); */
+    src: url("../../../node_modules/cryptocurrency-icons-font/dist/webfont/cryptocurrency-icons.woff2") format("woff2"),
+        url("../../../node_modules/cryptocurrency-icons-font/dist/webfont/cryptocurrency-icons.woff") format("woff");
+    /* url('cryptocurrency-icons.ttf') format('truetype'); */
+}
+
+.crypto-icon::before {
+    font-family: "cryptocurrency-icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+.crypto-icon.inactive {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.crypto-icon.btc::before {
+    content: "\E03E";
+}
+
+.crypto-icon.eth::before {
+    content: "\E091";
+}
+
+.crypto-icon.usd::before {
+    content: "\E174";
+}
+
+.crypto-icon.eur::before {
+    content: "\E095";
+}

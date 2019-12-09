@@ -1,0 +1,9 @@
+{
+    "pluginsFile": "tests/e2e/plugins/index.js",
+    "chromeWebSecurity": false,
+    "responseTimeout": 60000,
+    "env": {
+        "BACKEND": "https://back.bitcoinalley.com/api/",
+        "BACKEND_AUTH": "https://aut.bitcoinalley.com/api/"
+    }
+}

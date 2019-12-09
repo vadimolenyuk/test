@@ -1,0 +1,70 @@
+.walletwithdraw {
+    .modal-card-head {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .forgotpin {
+        flex-grow: 1;
+        text-align: right;
+    }
+}
+.walletlist {
+    .wallet {
+        .wallet-header {
+            .wallet-header-left {
+                overflow: hidden;
+                @include mobile {
+                    flex-basis: 60%;
+                }
+                @include desktop {
+                    flex-basis: 62%;
+                }
+                @include widescreen {
+                    flex-basis: 69%;
+                }
+                @include fullhd {
+                    flex-basis: 73%;
+                }
+                .level-item {
+                    width: 100%;
+                    .card-header-title {
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        display: block;
+                    }
+                }
+            }
+            .level-left + .level-right {
+                @include mobile {
+                    margin-top: 0 !important;
+                }
+            }
+        }
+        .wallet-info {
+            margin-bottom: 1em;
+        }
+        .wallet-address {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            a {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.wallet {
+    .multiselect__single,
+    .multiselect__option {
+        display: flex;
+        align-items: center;
+        .bankaccount-img {
+            height: 24px;
+            margin-right: 5px;
+        }
+    }
+}

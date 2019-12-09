@@ -1,0 +1,128 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    word-break: break-word;
+}
+
+.button,
+.navbar-item {
+    transition: all $transition-button-duration $transition-button-type;
+}
+
+.button:focus {
+    box-shadow: none !important;
+    border-color: var(--color-theme);
+}
+
+.input {
+    transition: border $transition-input-duration $transition-input-type;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity $transition-duration;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+a {
+    color: var(--color-theme-alt);
+    transition: color $transition-type $transition-duration;
+    &:hover {
+        color: var(--color-theme-dark);
+    }
+    &:active {
+        color: var(--color-theme-darkest);
+    }
+}
+
+.modal {
+    .modal-content {
+        border-radius: $radius;
+        overflow: hidden;
+        width: 90%;
+        .apexcharts-toolbar {
+            margin-right: 25px;
+            padding: 5px 0 2px 6px;
+        }
+    }
+    .modal-card {
+        .modal-card-title{
+            flex-wrap: wrap;
+            white-space: pre-wrap;
+            flex-shrink: 1;
+            @include mobile{
+                font-size: 22px;
+            }
+        }
+    }
+    .multiselect {
+        .multiselect__content-wrapper {
+            position: initial;
+        }
+    }
+}
+
+.card {
+    border-radius: $radius;
+}
+
+.level.is-mobile {
+    @include mobile {
+        flex-direction: column;
+        .level-left + .level-right {
+            margin-top: 0.5em;
+        }
+    }
+}
+
+
+.table,
+.message {
+    box-shadow: var(--shadow-material1);
+}
+
+.tile {
+    &.is-child {
+        position: relative;
+    }
+}
+.table{
+    @include mobile{
+        table-layout: fixed;
+    }
+}
+
+iframe {
+    z-index: 1 !important;
+}
+
+#CollectJSIframe {
+    z-index: 1099 !important;
+    height: 210px;
+}
+
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+    z-index: 0;
+}
+
+.kycbutton {
+    &.is-limit {
+        white-space: normal;
+        height: 3.75rem;
+        margin-top: 1rem;
+    }
+}
+
+.verify .control .button {
+    width: 72px;
+}
+
+.is-clipped {
+    word-break: break-all;
+}

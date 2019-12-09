@@ -1,0 +1,40 @@
+.button,
+.navbar-item {
+    transition: all $transition-button-duration $transition-button-type;
+}
+.input {
+    transition: border $transition-input-duration $transition-input-type;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity $transition-duration;
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+.loading-overlay {
+    z-index: 999;
+}
+
+a {
+    color: var(--color-theme);
+    transition: color $transition-type $transition-duration;
+    &:hover {
+        color: var(--color-theme-darker);
+    }
+    &:active {
+        color: var(--color-theme-darkest);
+    }
+}
+
+.control.has-icons-left .icon, 
+.control.has-icons-right .icon {
+    z-index: 0;
+}
+
+.message {
+    box-shadow: var(--shadow-material1);
+}

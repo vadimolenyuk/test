@@ -1,0 +1,22 @@
+.header {
+    background-color: var(--color-white1);
+    padding: 0.3125em 0;
+    .logo {
+        display: flex;
+        align-items: center;
+        .logo-img {
+            height: 40px;
+            width: 40px;
+            margin-right: 2px;
+        }
+        .logo-name {
+            font-size: 18px;
+        }
+        @include touch{
+            margin-left: 10px;
+        }
+    }
+    .langselect {
+        padding: 0;
+    }
+}

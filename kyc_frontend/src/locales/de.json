@@ -1,0 +1,133 @@
+{
+    "Interface": {
+        "404": {
+            "Button": "Zurück zur Hauptseite",
+            "Title": "Seite nicht gefunden"
+        },
+        "Button": {
+            "BackTo": "Zurück zu",
+            "Cancel": "Stornieren",
+            "Submit": "einreichen"
+        },
+        "ChangePassword": {
+            "Button": "Ändere das Passwort",
+            "NewPassword": "Neues Kennwort",
+            "NewPasswordConfirmation": "Bestätige neues Passwort",
+            "OldPassword": "derzeitiges Passwort",
+            "Title": "Kontopasswort ändern"
+        },
+        "Dashboard": {
+            "MyInfo": {
+                "Title": "Meine Information"
+            },
+            "Title": "Benutzerkonto Übersicht"
+        },
+        "KYC": {
+            "Address": {
+                "City": "Stadt",
+                "Country": "Land",
+                "Region": "Region",
+                "State": "Zustand",
+                "Street": "Straße",
+                "Title": "Adresse",
+                "ZipCode": "Postleitzahl"
+            },
+            "Button": {
+                "Back": "Zurück zu",
+                "Complete": "Komplett"
+            },
+            "ID": {
+                "Country": "Land",
+                "DateOfIssue": "Ausgabedatum",
+                "DocumentFile": "Gescanntes Dokument",
+                "Example1": "Darf in keiner Weise abgedeckt werden",
+                "Example2": "Darf NICHT verwischt werden oder mit Blitzlicht",
+                "Example3": "Darf NICHT anders als 90 ° geneigt werden",
+                "Example4": "Dies ist richtig!",
+                "Number": "Dokumentnummer",
+                "SSN": "Sozialversicherungsnummer",
+                "Title": "Ich würde"
+            },
+            "Other": {
+                "IDSelfie": "Selfie mit Ausweis",
+                "InvestorCertificate": "Investorenzertifikat",
+                "ProofOfResidence": "Nachweis des Wohnsitzes",
+                "Title": "andere"
+            },
+            "Personal": {
+                "BirthDate": "Geburtstag",
+                "BirthPlace": "Geburtsort",
+                "FirstName": "Vorname",
+                "Gender": {
+                    "Female": "Weiblich",
+                    "Male": "Männlich",
+                    "Title": "Geschlecht"
+                },
+                "LastName": "Nachname",
+                "MiddleName": "Zweiter Vorname",
+                "Title": "PERSÖNLICH"
+            },
+            "Webcam": {
+                "Button": {
+                    "Restart": "Erneut aufnehmen",
+                    "Start": "Ein Video aufnehmen",
+                    "Stop": "Höre auf, aufzunehmen"
+                },
+                "Error": {
+                    "BadBrowser": "Leider unterstützt Ihr Browser keine Videoaufzeichnung von einer Webcam, die für das KYC-Verfahren erforderlich ist. Bitte verwenden Sie Chrome oder Firefox (Windows / Android).",
+                    "Disabled": "Webcam durch Datenschutzeinstellungen deaktiviert",
+                    "DisabledText": "Bitte erlauben Sie den Zugriff auf die Webcam in Ihren Browsereinstellungen",
+                    "NotFound": "Webcam nicht gefunden",
+                    "NotFoundText": "Eine Webcam ist erforderlich, um den KYC-Vorgang abzuschließen",
+                    "Unknown": "Unbekannter Webcam-Fehler",
+                    "UnknownText": "Überprüfen Sie Ihre Webcam. Wenn der Fehler ständig angezeigt wird, wenden Sie sich an den Support"
+                },
+                "Help": "Um das Verfahren zum Übertragen von Token gemäß den Gesetzen aller Länder zu implementieren, müssen Sie das Video von Ihrer Webcam aufnehmen.",
+                "Indicator": {
+                    "Record": "Aufzeichnung"
+                },
+                "Movements": {
+                    "FirstStep": "Drücken Sie die Taste \"Video aufnehmen\"",
+                    "LastStep": "Drücken Sie die Taste \"Aufnahme stoppen\"",
+                    "Title": "Sie müssen die folgende Herausforderung ausführen"
+                },
+                "Title": "Video"
+            }
+        },
+        "Nav": {
+            "Dashboard": "Instrumententafel",
+            "KYC": "KSIK",
+            "Logout": "Ausloggen"
+        }
+    },
+    "Message": {
+        "Backend": {
+            "Default": "Standardmeldung über Fehler im Backend",
+            "NoData": "Fehler beim Abrufen von Daten aus dem Backend"
+        },
+        "KYC": {
+            "General": {
+                "Complete": "Herzlichen Glückwunsch, Sie haben alle Schritte abgeschlossen! Die Datenprüfung wird einige Zeit dauern.",
+                "SaveSuccess": "Ihre Daten werden erfolgreich gespeichert"
+            },
+            "Webcam": {
+                "SaveError": "Fehler beim Speichern Ihres Videos",
+                "SaveSuccess": "Ihr Video wurde erfolgreich gespeichert"
+            }
+        },
+        "Password": {
+            "ChangeSuccess": "Ihr Passwort wurde erfolgreich geändert"
+        },
+        "Verify": {
+            "Already": "Ihr Telefon ist bereits verifiziert",
+            "VerifyPhone": "Bitte überprüfen Sie Ihre Telefonnummer"
+        }
+    },
+    "Validation": {
+        "Default": "Überprüfen Sie die Formularfelder",
+        "KYC": {
+            "Text": "Validierungsfehler",
+            "Webcam": "Fehler beim Überprüfen der Webcam"
+        }
+    }
+}

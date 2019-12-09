@@ -1,0 +1,5 @@
+export const APPDB_GET_ID = "APPDB_GET_ID"
+export const APPDB_SET_ID = "APPDB_SET_ID"
+export const APPDB_UNSET_ID = "APPDB_UNSET_ID"
+export const APPDB_SET_SUCCESS = "APPDB_SET_SUCCESS"
+export const APPDB_SET_ERROR = "APPDB_SET_ERROR"

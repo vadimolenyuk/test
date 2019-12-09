@@ -1,0 +1,175 @@
+﻿#layout-guest {
+    .steps {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        font-size: 14px;
+        font-weight: 300;
+
+        h6 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .steps-content {
+            width: 100%;
+            max-width: 992px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+
+            .step {
+                position: relative;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: nowrap;
+                counter-increment: steps;
+
+                &:before {
+                    content: '';
+                    position: absolute;
+                    box-sizing: border-box;
+                    margin: auto;
+                }
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    box-sizing: border-box;
+                    width: 11px;
+                    height: 11px;
+                    margin: auto;
+                    border-top: 3px solid var(--color-theme);
+                    border-right: 3px solid var(--color-theme);
+                    transform: rotate(135deg);
+                }
+
+                .about-step {
+                    width: 100%;
+                    max-width: 300px;
+                    padding-right: 15px;
+                    text-align: right;
+                    position: relative;
+
+                    &:before,
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        box-sizing: border-box;
+                    }
+
+                    &:before {
+                        content: "0"counter(steps);
+                        color: var(--color-theme);
+                        font-size: 130px;
+                        line-height: 1;
+                        opacity: .2;
+                        top: -50px;
+                    }
+
+                    &:after {
+                        padding: 6px;
+                        background: var(--color-theme);
+                        border-radius: 50%;
+                    }
+                }
+
+                &:nth-of-type(odd) {
+                    width: 70%;
+                    margin-bottom: 100px;
+
+                    &:before {
+                        width: -webkit-calc(100% - 390px);
+                        width: calc(100% - 390px);
+                        height: 113%;
+                        right: 0;
+                        border-top: 1px dashed var(--color-theme);
+                        border-right: 1px dashed var(--color-theme);
+                        top: 37px;
+                    }
+
+                    &:after {
+                        right: -5px;
+                        bottom: -50px;
+                    }
+
+                    .about-step {
+                        &:before {
+                            right: -80px;
+                        }
+
+                        &:after {
+                            top: 31px;
+                            right: -90px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(even) {
+                    width: 68%;
+                    flex-direction: row-reverse;
+                    align-self: flex-end;
+                    margin-bottom: 100px;
+
+                    &:before {
+                        width: -webkit-calc(100% - 380px);
+                        width: calc(100% - 380px);
+                        height: 100%;
+                        left: 0px;
+                        border-top: 1px dashed var(--color-theme);
+                        border-left: 1px dashed var(--color-theme);
+                        top: 33px;
+                    }
+
+                    &:after {
+                        left: -5px;
+                        bottom: -30px;
+                    }
+
+                    .about-step {
+                        padding-right: 0;
+                        padding-left: 15px;
+                        text-align: left;
+
+                        &:before {
+                            left: -60px;
+                            top: -40px;
+                        }
+
+                        &:after {
+                            bottom: 49px;
+                            left: -80px;
+                        }
+                    }
+                }
+
+                &:last-of-type {
+
+                    &:before,
+                    &:after {
+                        content: none;
+                    }
+
+                    .about-step:after {
+                        content: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.flag {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+}
+.flag:before {
+    content: "\00a0";
+}
+.flag-cn {
+    background-image: url(/img/flags/cn.svg);
+}
+.flag-de {
+    background-image: url(/img/flags/de.svg);
+}
+.flag-es {
+    background-image: url(/img/flags/es.svg);
+}
+.flag-fr {
+    background-image: url(/img/flags/fr.svg);
+}
+.flag-it {
+    background-image: url(/img/flags/it.svg);
+}
+.flag-jp {
+    background-image: url(/img/flags/jp.svg);
+}
+.flag-kr {
+    background-image: url(/img/flags/kr.svg);
+}
+.flag-ru {
+    background-image: url(/img/flags/ru.svg);
+}
+.flag-us {
+    background-image: url(/img/flags/us.svg);
+}
+
+
+.langselect {
+    z-index: 2;
+    .multiselect {
+        .multiselect__single,
+        .multiselect__option {
+            .option-icon {
+                height: 19px;
+            }
+        }
+        .multiselect__tags {
+            padding-right: 30px;
+        }
+    }
+}
+
+.lang-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin-left: auto;
+}

@@ -1,0 +1,32 @@
+#rates-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .card {
+        // clip-path: polygon(100% 0, 100% 100%, 1.5rem 100%, 0 calc(100% - 1.5rem), 0 0);
+        .card-content {
+            @include mobile {
+                padding: 1rem;
+            }
+        }
+    }
+    .rates-title,
+    .rates-fiat {
+        margin-bottom: 1rem;
+        @include mobile {
+            margin-bottom: 0.5rem;
+        }
+    }
+    .rates-title {
+        @include mobile {
+            font-size: 1rem;
+        }
+    }
+    .rates-chartlink {
+        a {
+            @include mobile {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
